@@ -86,7 +86,7 @@ let proxy;*/
       li.type(lastName);
       await page.waitForTimeout(500);
 
-      //AHU22 Targeted Mass Assistance D4 tradeProgram // 5620 118 AVENUE // APP 14 // EDMUNTON //T5W1C9
+     // Insert Program Name 
       const sele = await page.$('input[name="tradeProgram"]');
       sele.click();
       sele.type(directive);
